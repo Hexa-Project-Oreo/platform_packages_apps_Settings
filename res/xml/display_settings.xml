@@ -120,6 +120,12 @@
         android:title="@string/doze_title"
         android:summary="@string/doze_summary" />
 
+    <com.android.settings.preference.SecureSettingSwitchPreference
+        android:key="doze_always_on"
+        android:title="@string/doze_always_on_title"
+        android:summary="@string/doze_always_on_summary"
+        android:defaultValue="true" />
+
     <SwitchPreference
         android:key="tap_to_wake"
         android:title="@string/tap_to_wake"
