@@ -3114,7 +3114,7 @@
         <!-- This is the longest AndroidManifest.xml ever. -->
 		
         <!-- Begin Hexa Custom Settings -->
-        <activity android:name="Settings$HexaSettingsActivity"
+        <activity android:name="Settings$HexaMainSettingsActivity"
                 android:label="@string/hexa_settings"
                 android:icon="@drawable/ic_settings_statusbar">
             <intent-filter android:priority="-1">

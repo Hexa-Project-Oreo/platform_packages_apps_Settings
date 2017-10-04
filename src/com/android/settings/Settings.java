@@ -179,6 +179,6 @@ public class Settings extends SettingsActivity {
     public static class SupportDashboardActivity extends SettingsActivity {}
 		
 	// Hexa Settings BEGINS
-	public static class HexaSettingsActivity extends SettingsActivity {}
+	public static class HexaMainSettingsActivity extends SettingsActivity {}
 
 }

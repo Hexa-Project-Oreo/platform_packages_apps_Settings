@@ -38,7 +38,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Switch;
 
-import com.six.settings.preferences.CustomSeekBarPreference;
+import com.hexa.settings.preferences.CustomSeekBarPreference;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.AppHeader;
 import com.android.settings.R;
@@ -53,7 +53,7 @@ import com.android.settings.widget.MasterSwitchPreference;
 import com.android.settings.widget.SwitchBar;
 import com.android.settingslib.RestrictedSwitchPreference;
 
-import net.margaritov.preference.colorpicker.ColorPickerPreference;
+import com.hexa.settings.preferences.colorpicker.ColorPickerPreference;
 
 import static android.provider.Settings.System.NOTIFICATION_LIGHT_PULSE;
 

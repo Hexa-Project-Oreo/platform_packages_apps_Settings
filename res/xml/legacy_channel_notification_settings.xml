@@ -49,12 +49,12 @@
             android:key="lights"
             android:title="@string/notification_show_lights_title"/>
 
-        <net.margaritov.preference.colorpicker.ColorPickerPreference
+        <com.hexa.preferences.colorpicker.ColorPickerPreference
             android:key="custom_light"
             android:title="@string/custom_light_title"
             settings:defaultColorValue="0x00FFFFFF" />
 
-        <com.six.settings.preferences.CustomSeekBarPreference
+        <com.hexa.settings.preferences.CustomSeekBarPreference
             android:key="custom_light_on_time"
             android:title="@string/custom_light_on_time_title"
             android:defaultValue="0"
@@ -64,7 +64,7 @@
             settings:interval="100"
             settings:units="" />
 
-        <com.six.settings.preferences.CustomSeekBarPreference
+        <com.hexa.settings.preferences.CustomSeekBarPreference
             android:key="custom_light_off_time"
             android:title="@string/custom_light_off_time_title"
             android:defaultValue="0"
