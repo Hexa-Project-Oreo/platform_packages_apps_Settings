@@ -3124,6 +3124,8 @@
                        android:value="com.android.settings.category.ia.homepage"/>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.hexa.settings.HexaMainSettings" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/hexa_settings_summary"/>
         </activity>
     </application>
 </manifest>
